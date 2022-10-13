@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -28,11 +29,23 @@ header h1{
     font-size: 1.1rem;
 }
 
-figure img{
-    display: inline;
-    height: 5rem;
+.section-conteiner{
+    padding-top: 3rem;
 }
+
+figure img{
     
+    height: 5rem;
+    padding-left: 2rem;
+}
+
+figure{
+    width: calc(100% / 3);
+}
+
+.fl-left{
+    float: left;
+}
 
 .title{
     width: 60%;
@@ -40,5 +53,10 @@ figure img{
 
 }
 figcaption{
+    background-color: black;
+    float: right;
+    color:white;
     padding-top: 0.3rem;
+    padding-right: 10rem;
+    margin-right: 4rem;
 }
