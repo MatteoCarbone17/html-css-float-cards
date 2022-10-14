@@ -11,7 +11,7 @@
     clear: both
 }  
 .conteiner{
-    width: 60%;
+    width: 65%;
     margin: 0 auto;
 }
 
@@ -29,34 +29,35 @@ header h1{
     font-size: 1.1rem;
 }
 
-.section-conteiner{
-    padding-top: 3rem;
+main{
+    padding-top: 2rem;
 }
 
-figure img{
-    
-    height: 5rem;
-    padding-left: 2rem;
-}
-
-figure{
-    width: calc(100% / 3);
-}
-
-.fl-left{
+.float-left{
     float: left;
 }
-
-.title{
-    width: 60%;
-    margin: 0 auto;  
-
-}
-figcaption{
+    
+div.col{
+    float: left;
+    width: calc( (100% / 3) - 3rem);
+    margin: 3rem 1.5rem 1.5rem;
     background-color: black;
-    float: right;
     color:white;
-    padding-top: 0.3rem;
-    padding-right: 10rem;
-    margin-right: 4rem;
+    border-radius: 2rem;
+    padding-right: 3rem;
+    
 }
+div.cards{
+    margin-bottom: 1.3rem;
+    margin-top: .5rem;
+}
+div.col>img{
+    border-radius: 2rem;
+    height: 6rem;
+    margin-right: .7rem;
+}
+div.cards h2{
+    font-size: 1.3rem;
+    padding-top: .8rem;
+}
+
